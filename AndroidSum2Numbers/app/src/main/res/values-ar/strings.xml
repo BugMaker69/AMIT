@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جمع رقمين</string>
+    <string name="close">غلق</string>
+    <string name="number1">الرقم الاول</string>
+    <string name="number2">الرقم الثاني</string>
+    <string name="add">جمع</string>
+    <string name="sum">المجموع</string>
+</resources>
