@@ -17,12 +17,30 @@ public class MainActivity extends AppCompatActivity {
             R.mipmap.ic_launcher,
             R.mipmap.ic_launcher,
             R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
+            R.mipmap.ic_launcher,
             R.mipmap.ic_launcher
     ));
     ArrayList aryName=new ArrayList<>(Arrays.asList(
+            "Omar","Ali","Amr","Mohammed",
+            "Omar","Ali","Amr","Mohammed",
+            "Omar","Ali","Amr","Mohammed",
             "Omar","Ali","Amr","Mohammed"
     ));
     ArrayList aryNum=new ArrayList<>(Arrays.asList(
+            "011","012","010","015",
+            "011","012","010","015",
+            "011","012","010","015",
             "011","012","010","015"
     ));
 

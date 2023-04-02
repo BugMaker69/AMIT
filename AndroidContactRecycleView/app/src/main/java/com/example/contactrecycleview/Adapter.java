@@ -1,6 +1,8 @@
 package com.example.contactrecycleview;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,7 +38,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         int r=(int) aryImg.get(position);
         holder.images.setImageResource(r);
         holder.text.setText((String) aryName.get(position));
+        Log.e("NAME","Name Position" + position);
         holder.num.setText((String) aryNum.get(position));
+        Log.e("Number","Number Position" + position);
+        if(position==0){
+            holder.text.setBackgroundColor(Color.BLUE);
+            Log.w("BLUE","Colored Blue Position" + position);
+        }
     }
 
     @Override
